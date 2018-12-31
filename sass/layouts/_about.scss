@@ -1,0 +1,36 @@
+.about{
+     padding: 9rem 0;
+    &__heading{
+        font-weight: 100;
+        font-size: 6rem;
+        text-align: center;
+    }
+
+    &__copyright{
+        padding: 5rem 0;
+    }
+
+    &__copy{
+        font-size: 2rem;
+        text-align: center;
+        font-weight: 400;
+        
+    }
+
+    &__hr{
+        width: 10rem;
+        margin: 0 auto;
+    }
+
+    &__text{
+        font-size: 2rem;
+        line-height: 1.4;
+        text-align: center;
+        padding: 5rem 20rem;
+    }
+
+    &__text:last-child{
+        padding-top: 0;
+    }
+
+}

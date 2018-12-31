@@ -1,0 +1,22 @@
+.quotes{
+
+    &__content{
+        background-color: $color-pink;
+    }
+
+    &__quote{
+        font-size: 3.6rem;
+        line-height: 1.6;
+    }
+
+    &__img{
+        width: 100%;
+        display: block;
+    }
+
+    &__photo{
+
+    }
+
+    
+}

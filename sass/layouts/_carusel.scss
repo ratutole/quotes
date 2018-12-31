@@ -1,0 +1,51 @@
+.carusel{
+    filter: brightness(115%);
+    background: url('../images/main-bg.png');
+    background-position: cover;
+    min-height: 100rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    &__logo{
+        position: absolute;
+        top: 5rem;
+        left: 10vw;
+    }
+
+    &__box{
+        // padding:  30rem 0;
+        // padding-left: 47%;
+        color: $color-white;
+        transform: translateX(40%);
+    }
+
+    &__heading{
+        font-size: 22rem;
+        font-weight: 100;
+        text-transform: uppercase;
+    }
+
+    &__text{
+        font-size: 6.4rem;
+        font-weight: bold;
+        letter-spacing: .15rem;
+    }
+
+    &__selectors{
+        position: absolute;
+        bottom: 13%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+    }
+
+    &__circle{
+        width: 1.6rem;
+        height: 1.6rem;
+        background-color: $color-black;
+        margin: 0 2rem;
+        border-radius: 50%;
+    }
+}
